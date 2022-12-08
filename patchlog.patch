@@ -1,0 +1,219 @@
+From 459469eb286ce1228a3c7da4d0e7f4f67a92d211 Mon Sep 17 00:00:00 2001
+From: Doug Herman <dhe402358@golubcapital.com>
+Date: Thu, 8 Dec 2022 14:35:56 -0600
+Subject: [PATCH 1/6] changed items
+
+---
+ listOfThings.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/listOfThings.txt b/listOfThings.txt
+index 036fd13..5ab2490 100644
+--- a/listOfThings.txt
++++ b/listOfThings.txt
+@@ -3,7 +3,8 @@ Ball
+ Food
+ Phone
+ Stapler
+-Mouse
++A Mouse
++Monitors
+ Kleenex
+ Laptop
+ La Croix
+-- 
+2.31.1.windows.1
+
+
+From 08c1c105b9bf4f63cfbdefc52b6faad66de0ba21 Mon Sep 17 00:00:00 2001
+From: Doug Herman <dhe402358@golubcapital.com>
+Date: Thu, 8 Dec 2022 14:47:29 -0600
+Subject: [PATCH 2/6] changes spellings in list of things
+
+---
+ listOfThings.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/listOfThings.txt b/listOfThings.txt
+index 5ab2490..387513a 100644
+--- a/listOfThings.txt
++++ b/listOfThings.txt
+@@ -1,4 +1,5 @@
+ Ruler
++Head Phones
+ Ball
+ Food
+ Phone
+@@ -8,7 +9,7 @@ Monitors
+ Kleenex
+ Laptop
+ La Croix
+-Cords
++Some Cords
+ Outlet
+ Whale hello there!
+ Reign Energy Drink
+-- 
+2.31.1.windows.1
+
+
+From 00c153c4e627c6309aae0ed21c1dd77987f01b58 Mon Sep 17 00:00:00 2001
+From: Doug Herman <dhe402358@golubcapital.com>
+Date: Thu, 8 Dec 2022 14:47:57 -0600
+Subject: [PATCH 3/6] adds semicolons where needed also adds "goodbye world"
+ message
+
+---
+ HelloWorld.cs | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/HelloWorld.cs b/HelloWorld.cs
+index 4f03d2e..3c5b87f 100644
+--- a/HelloWorld.cs
++++ b/HelloWorld.cs
+@@ -1,6 +1,7 @@
+ public void Main (string[] args)
+ {
+-	Console.WriteLine("Hello World")
++	Console.WriteLine("Hello World");
++	Console.WriteLine("Goodbye World");
+ }
+ 
+ 
+-- 
+2.31.1.windows.1
+
+
+From 9cd102559c6d2be579f137e8b39dea50ff63cfed Mon Sep 17 00:00:00 2001
+From: Doug Herman <dhe402358@golubcapital.com>
+Date: Thu, 8 Dec 2022 14:58:07 -0600
+Subject: [PATCH 4/6] adds even MORE items to list of things file
+
+---
+ listOfThings.txt | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+diff --git a/listOfThings.txt b/listOfThings.txt
+index 387513a..86f0570 100644
+--- a/listOfThings.txt
++++ b/listOfThings.txt
+@@ -1,11 +1,16 @@
+ Ruler
+-Head Phones
++Headphones
+ Ball
+ Food
++Garbage Cans
++Empty Cabinets
+ Phone
+ Stapler
+ A Mouse
+ Monitors
++Me
++Air
++A Million Dollars
+ Kleenex
+ Laptop
+ La Croix
+@@ -13,3 +18,6 @@ Some Cords
+ Outlet
+ Whale hello there!
+ Reign Energy Drink
++Notebook
++Keyboard
++Radiowaves
+-- 
+2.31.1.windows.1
+
+
+From aaa1b969c153b191a9d5296205f5ecc5743dcb04 Mon Sep 17 00:00:00 2001
+From: Doug Herman <dhe402358@golubcapital.com>
+Date: Thu, 8 Dec 2022 15:19:33 -0600
+Subject: [PATCH 5/6] added some things
+
+---
+ listOfThings.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/listOfThings.txt b/listOfThings.txt
+index 86f0570..bca0650 100644
+--- a/listOfThings.txt
++++ b/listOfThings.txt
+@@ -8,9 +8,12 @@ Phone
+ Stapler
+ A Mouse
+ Monitors
++<<<<<<< HEAD
+ Me
+ Air
+ A Million Dollars
++=======
++>>>>>>> 459469e (changed items)
+ Kleenex
+ Laptop
+ La Croix
+-- 
+2.31.1.windows.1
+
+
+From 53e5fb7d1f891e625e0cde67cb3337ee705bc76a Mon Sep 17 00:00:00 2001
+From: Doug Herman <dhe402358@golubcapital.com>
+Date: Thu, 8 Dec 2022 15:22:38 -0600
+Subject: [PATCH 6/6] adds diff log file
+
+---
+ diff1.txt | 42 ++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 42 insertions(+)
+ create mode 100644 diff1.txt
+
+diff --git a/diff1.txt b/diff1.txt
+new file mode 100644
+index 0000000..723637f
+--- /dev/null
++++ b/diff1.txt
+@@ -0,0 +1,42 @@
++diff --git a/HelloWorld.cs b/HelloWorld.cs
++index 3c5b87f..4f03d2e 100644
++--- a/HelloWorld.cs
+++++ b/HelloWorld.cs
++@@ -1,7 +1,6 @@
++ public void Main (string[] args)
++ {
++-	Console.WriteLine("Hello World");
++-	Console.WriteLine("Goodbye World");
+++	Console.WriteLine("Hello World")
++ }
++ 
++ 
++diff --git a/listOfThings.txt b/listOfThings.txt
++index 86f0570..5ab2490 100644
++--- a/listOfThings.txt
+++++ b/listOfThings.txt
++@@ -1,23 +1,14 @@
++ Ruler
++-Headphones
++ Ball
++ Food
++-Garbage Cans
++-Empty Cabinets
++ Phone
++ Stapler
++ A Mouse
++ Monitors
++-Me
++-Air
++-A Million Dollars
++ Kleenex
++ Laptop
++ La Croix
++-Some Cords
+++Cords
++ Outlet
++ Whale hello there!
++ Reign Energy Drink
++-Notebook
++-Keyboard
++-Radiowaves
+-- 
+2.31.1.windows.1
+
