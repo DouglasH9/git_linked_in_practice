@@ -1,0 +1,42 @@
+diff --git a/HelloWorld.cs b/HelloWorld.cs
+index 3c5b87f..4f03d2e 100644
+--- a/HelloWorld.cs
++++ b/HelloWorld.cs
+@@ -1,7 +1,6 @@
+ public void Main (string[] args)
+ {
+-	Console.WriteLine("Hello World");
+-	Console.WriteLine("Goodbye World");
++	Console.WriteLine("Hello World")
+ }
+ 
+ 
+diff --git a/listOfThings.txt b/listOfThings.txt
+index 86f0570..5ab2490 100644
+--- a/listOfThings.txt
++++ b/listOfThings.txt
+@@ -1,23 +1,14 @@
+ Ruler
+-Headphones
+ Ball
+ Food
+-Garbage Cans
+-Empty Cabinets
+ Phone
+ Stapler
+ A Mouse
+ Monitors
+-Me
+-Air
+-A Million Dollars
+ Kleenex
+ Laptop
+ La Croix
+-Some Cords
++Cords
+ Outlet
+ Whale hello there!
+ Reign Energy Drink
+-Notebook
+-Keyboard
+-Radiowaves
