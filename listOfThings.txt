@@ -1,4 +1,5 @@
 Ruler
+Head Phones
 Ball
 Food
 Phone
@@ -8,7 +9,7 @@ Monitors
 Kleenex
 Laptop
 La Croix
-Cords
+Some Cords
 Outlet
 Whale hello there!
 Reign Energy Drink
