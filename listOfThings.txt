@@ -8,9 +8,12 @@ Phone
 Stapler
 A Mouse
 Monitors
+<<<<<<< HEAD
 Me
 Air
 A Million Dollars
+=======
+>>>>>>> 459469e (changed items)
 Kleenex
 Laptop
 La Croix
