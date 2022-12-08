@@ -1,11 +1,16 @@
 Ruler
-Head Phones
+Headphones
 Ball
 Food
+Garbage Cans
+Empty Cabinets
 Phone
 Stapler
 A Mouse
 Monitors
+Me
+Air
+A Million Dollars
 Kleenex
 Laptop
 La Croix
@@ -13,3 +18,6 @@ Some Cords
 Outlet
 Whale hello there!
 Reign Energy Drink
+Notebook
+Keyboard
+Radiowaves
